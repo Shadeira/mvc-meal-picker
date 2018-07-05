@@ -1,5 +1,5 @@
 #life calculator
-def years_alive(birthday)
+def days_alive(birthday)
   #days in the months array
   days_in_months=[31,28,31,30,31,30,31,31,30,31,30,31]
   

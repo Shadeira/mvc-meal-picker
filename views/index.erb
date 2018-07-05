@@ -2,10 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>My Meal Picker</title>
     <link rel="stylesheet" href="css/style.css">
   <body>
-    <h1>Welcome to the Klossy Kalculator! How many days have you been alive?</h1>
-
+    <h1>Welcome to the Meal Picker App! Enter your name.</h1>
+    
+    <form method="POST" action="/hiName">
+      <input type = "text" name = "userName">
+      <p>Please select your meal preference.</p>
+      <button type= "submit">Vegan</submit>
+      <button type= "submit">Meat</submit>
+      <button type= "submit">Pescatarian</submit>
+      
+    </form>
   </body>
 </html>
