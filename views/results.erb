@@ -2,11 +2,32 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Meal Picker Results</title>
+    <link rel="stylesheet" href="css/meal.css">
   </head>
+  
   <body>
-   <h1>The number of days you have been alive is: <%=@daysAlive%> </h1>
-   
-   
+    <center>
+     <h1>Hey <%= @name %></h1>
+     <h1>Here's your meal:
+     <h3><%= @data[:name] %></h3></h1>
+
+     <img src="<%= @data[:url] %>" />
+     </center>
+     
+     <h5>Ingredients:</h5>
+     <ol>
+     <% @data[:ingredients].each do |ingredient| %>
+     <li><%= ingredient %></li>
+     <% end %>
+     </ol>
+    
   </body>
 </html>
+
+
+
+
+   <!--<h3>Title:<%= @data[:name] %></h3>
+   
+   <!--<h3><%= @data[:name] %></h3>

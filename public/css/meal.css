@@ -1,0 +1,36 @@
+
+
+
+img {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 5px;
+   width: 400px;
+}
+
+#logo {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 5px;
+   width: 200px;
+}
+
+body {
+    background-color: yellow;
+    background-position: center;
+    
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    
+}
+h5 {
+    font-size: 25px;
+    
+}

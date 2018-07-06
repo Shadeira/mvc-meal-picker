@@ -3,17 +3,56 @@
   <head>
     <meta charset="UTF-8">
     <title>My Meal Picker</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/meal.css">
   <body>
-    <h1>Welcome to the Meal Picker App! Enter your name.</h1>
-    
-    <form method="POST" action="/hiName">
-      <input type = "text" name = "userName">
-      <p>Please select your meal preference.</p>
-      <button type= "submit">Vegan</submit>
-      <button type= "submit">Meat</submit>
-      <button type= "submit">Pescatarian</submit>
+    <center>
+    <h1>Welcome to the Meal Picker App! </h1>
+    <img id="logo" src= "https://lh3.googleusercontent.com/6PfXOU-nBU5DIif0NyO6oz-uLsqNmK9aEIAEFtd5mCV27k75vdhkLvaNXL4pZDqMMW5o=s180-rw">
+  
+      
+      <br>
+      <p>Enter your name. </p>
+      <form method="POST" action="/mealoptions">
+      <input type = "text" name = "name">
+      <br/>
+      <br>
+      <br/>
+      <br>
+      <p>Please select your diet.</p>
+      <div id=>
+      <br>
+      <input name = "diet" type= "radio" value = "Vegan"><img id="logo" src="https://www.vegansociety.com/sites/default/files/Vegan%20TM%20Thumbnail.jpg">
+      <br />
+      <br>
+      <input name = "diet" type= "radio" value = "Meat"><img id="logo" src="http://i2.wp.com/www.themeateater.com/wp-content/uploads/2018/01/PodcastLogo-1.jpg?resize=620%2C%20349">
+      <br />
+      <br>
+      <input name = "diet" type= "radio" value = "Pescatarian"><img id="logo" src="images/PescatarianLogo.png">
+      <br />
+      </div>
+      <br>
+      <br/>
+      <br>
+      <p>Next select your Meal.</p>
+      <div>
+      <br>
+      <input name = "meal" type= "radio" value = "Breakfast">Breakfast
+      <br />
+      <br>
+      <input name = "meal" type= "radio" value = "Lunch">Lunch
+      <br/>
+      <br>
+      <input name = "meal" type= "radio" value = "Dinner">Dinner
+      <br />
+      </div>
+      <br>
+      <br/>
+      <br>
+      <button type = "submit"> Submit</button>
+      <br />
       
     </form>
+    </center>
   </body>
+ 
 </html>

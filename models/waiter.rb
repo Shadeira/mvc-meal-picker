@@ -13,7 +13,7 @@ class MyApp < Sinatra::Base
   end
   
 #post route
-#daysAlive is our instance variable
+#------- is our instance variable
 
   post '/userName' do
     #getting data from form and saves it as a hash called params, saving it in a variable we created called userBirthday. :userBirthday comes from index.erb--name of input
